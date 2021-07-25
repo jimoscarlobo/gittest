@@ -18,5 +18,13 @@ namespace gittest
 
             return terms;
         }
+        public List<string> GetTasty()
+        {
+            List<string> terms = new List<string>();
+            terms.Add("https://www.tasty.com");
+            terms.Add("https://tasty.com");
+
+            return terms;
+        }
     }
 }
