@@ -19,14 +19,5 @@ namespace gittest.Controllers
 
             return terms;
         }
-        [HttpGet]
-        public List<string> GetYourUrl()
-        {
-            List<string> terms = new List<string>();
-            terms.Add("https://www.donedeal.com");
-            terms.Add("https://daft.com");
-
-            return terms;
-        }
     }
 }
